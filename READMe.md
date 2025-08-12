@@ -65,8 +65,8 @@ La **landing page** de **Infinite Paradise** incluye:
 
 ## 🚀 Cómo visualizar
 1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/usuario/practica-36-accesibilidad-aria.git
+```bash
+   git clone https://github.com/LainerDonet/Modulo36_EBAC.git
 ````
 
 2. Abrir el archivo `index.html` en tu navegador.
@@ -83,9 +83,4 @@ La **landing page** de **Infinite Paradise** incluye:
 
 Este proyecto es parte de un curso educativo y puede ser reutilizado con fines de aprendizaje.
 
-```
 
----
-
-Si quieres, puedo añadirle **capturas generadas** del hotel Infinite Paradise que ya creamos para que tu README quede visualmente atractivo.
-```
