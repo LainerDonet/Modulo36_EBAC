@@ -1,0 +1,113 @@
+:root {
+            --color-primario: #003366; /* Azul oscuro */
+            --color-texto: #333333; /* Gris oscuro */
+            --color-fondo: #FFFFFF; /* Blanco */
+            --color-acento: #FFC107; /* Ámbar */
+        }
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: var(--color-fondo);
+            color: var(--color-texto);
+        }
+        header {
+            background-color: var(--color-primario);
+            color: var(--color-fondo);
+            padding: 1rem;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+        .title {
+            margin: 0;
+            font-size: 2rem;
+            color: var(--color-fondo);
+        }
+        .logo {
+            max-width: 120px;
+            height: auto;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: var(--color-fondo);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        nav a:hover, nav a:focus {
+            background-color: var(--color-acento);
+            color: var(--color-primario);
+        }
+        main {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h1, h2 {
+            color: var(--color-primario);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+        form {
+            background-color: #f4f4f4;
+            padding: 2rem;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: var(--color-primario);
+            color: var(--color-fondo);
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004d99;
+        }
+        footer {
+            background-color: var(--color-texto);
+            color: var(--color-fondo);
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: var(--color-fondo);
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
