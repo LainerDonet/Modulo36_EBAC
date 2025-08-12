@@ -1,8 +1,3 @@
-Aquí tienes un **README.md** claro y bien estructurado para tu repositorio de GitHub:
-
----
-
-```markdown
 # Práctica 36 – Accesibilidad Web con ARIA
 
 Este repositorio contiene la **práctica número 36** del curso de *Front End*, enfocada en la implementación de **principios de accesibilidad web** mediante el uso de **HTML semántico**, atributos ARIA y buenas prácticas para mejorar la experiencia de todos los usuarios.  
